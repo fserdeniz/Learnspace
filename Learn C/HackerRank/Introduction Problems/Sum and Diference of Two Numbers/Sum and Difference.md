@@ -1,5 +1,4 @@
 # Objective
-
 The fundamental data types in c are int, float and char. Today, we're discussing int and float data types.
 
 The printf() function prints the given statement to the console. The syntax is 
@@ -47,5 +46,5 @@ Print the sum and difference of both integers separated by a space on the first 
 ```
 
 ### Explanation
-When we sum the integers  and , we get the integer . When we subtract the second number  from the first number, we get  as their difference.
-When we sum the floating-point numbers  and , we get . When we subtract the second number  from the first number, we get  as their difference.
+When we sum the integers and, we get the integer. When we subtract the second number from the first number, we get as their difference.
+When we sum the floating-point numbers and, we get. When we subtract the second number from the first number, we get  as their difference.
