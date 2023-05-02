@@ -1,5 +1,6 @@
 Write a C program to read the age of a candiadte and detrermine whether it is eligible for casting his/her own vote.
 
+```c
 #include <stdio.h>
 void main()
 {
@@ -15,3 +16,4 @@ void main()
   else
      printf("Congratulation! You are eligible for casting your vote.\n");
 }
+```
