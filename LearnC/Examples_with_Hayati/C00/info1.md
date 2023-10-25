@@ -1,0 +1,5 @@
+`STDOUT_FILENO`, C programlama dilinde kullanılan bir öntanımlı (predefined) semboldür ve standart çıkış dosyasını (standard output) temsil eder. Bu sembol, dosya tanımlayıcılarıyla çalışırken kullanılır ve POSIX uyumlu işletim sistemlerinde yaygın olarak kullanılır.
+
+`STDOUT_FILENO`, standart çıkış dosyasının dosya tanımlayıcısını (file descriptor) ifade eder ve genellikle `1` değerine eşittir. `0` dosya tanımlayıcısı standart girişi (standart input), `1` standart çıkışı ve `2` standart hata çıkışını (standart error output) temsil eder.
+
+Programlar, `write` veya `printf` gibi işlevlerle verileri standart çıkışa yazmak için `STDOUT_FILENO` veya `1` dosya tanımlayıcısını kullanabilirler. Bu, programın çıktısının ekranda görüntülenmesini veya başka bir dosyaya yönlendirilmesini sağlar. Örneğin, `write(STDOUT_FILENO, "Merhaba, Dünya!\n", 14);` komutu, "Merhaba, Dünya!" metnini standart çıkışa yazar.
